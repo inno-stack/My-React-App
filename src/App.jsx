@@ -13,7 +13,7 @@ function App() {
       <Header />
       <main className="container">
         <Hero />
-        <Profile />
+        {/* <Profile /> */}
         <NewPostModal />
         <PostGrid />
       </main>
