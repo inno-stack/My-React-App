@@ -1,37 +1,45 @@
+import React from "react";
+
+
 function Hero() {
+ 
   return (
-    <section className="hero-section">
-      <figure className="avatar-container">
-        <div className="avatar__img-container">
-          <img
-            id="profileImage"
-            className="avatar"
-            src="/src/assets/Images/Avatar.png"
-            alt="avatar-image"
-          />
-        </div>
-        <figcaption className="avatar-info">
-          <div className="avatar-text">
-            <h2 className="truncate" id="profileName">
-              Bessie Coleman
-            </h2>
-            <p className="truncate" id="profileProfession">
-              Civil Aviator
-            </p>
+    <>
+      <section className="hero-section">
+        <figure className="avatar-container">
+          <div className="avatar__img-container">
+            <img
+              id="profileImage"
+              className="avatar"
+              src="/src/assets/Images/Avatar.png"
+              alt="avatar-image"
+            />
           </div>
-          <button className="edit-profile-btn">
-            <img src="src/assets/Icons/Icon_edit.svg" alt="edit" />
-            Edit Profile
-          </button>
-        </figcaption>
-      </figure>
-      <button id="newPostBtn" className="newPostBtn">
-        <span>
-          <img src="src/assets/Icons/Icon_add.svg" alt="add" />
-        </span>
-        <span>New Post</span>
-      </button>
-    </section>
+          <figcaption className="avatar-info">
+            <div className="avatar-text">
+              <h2 className="truncate" id="profileName">
+                Bessie Coleman
+              </h2>
+              <p className="truncate" id="profileProfession">
+                Civil Aviator
+              </p>
+            </div>
+            <button className="edit-profile-btn">
+              <img src="src/assets/Icons/Icon_edit.svg" alt="edit" />
+              Edit Profile
+            </button>
+          </figcaption>
+        </figure>
+
+        <button id="newPostBtn" className="newPostBtn">
+          <span>
+            <img src="/src/assets/Icons/Icon_add.svg" alt="add" />
+          </span>
+          <span>New Post</span>
+        </button>
+       
+      </section>
+    </>
   );
 }
 export default Hero;

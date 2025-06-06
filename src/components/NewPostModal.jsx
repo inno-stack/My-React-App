@@ -1,4 +1,6 @@
 import { useRef, useEffect } from "react";
+import React from "react";
+
 
 function NewPostModal({ onClose }) {
   const modalRef = useRef(null);
