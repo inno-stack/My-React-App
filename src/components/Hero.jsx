@@ -1,8 +1,6 @@
 import React from "react";
 
-
 function Hero() {
- 
   return (
     <>
       <section className="hero-section">
@@ -11,7 +9,7 @@ function Hero() {
             <img
               id="profileImage"
               className="avatar"
-              src="/src/assets/Images/Avatar.png"
+              src="/Images/Avatar.png"
               alt="avatar-image"
             />
           </div>
@@ -25,7 +23,7 @@ function Hero() {
               </p>
             </div>
             <button className="edit-profile-btn">
-              <img src="src/assets/Icons/Icon_edit.svg" alt="edit" />
+              <img src="/Icons/Icon_edit.svg" alt="edit" />
               Edit Profile
             </button>
           </figcaption>
@@ -33,11 +31,10 @@ function Hero() {
 
         <button id="newPostBtn" className="newPostBtn">
           <span>
-            <img src="/src/assets/Icons/Icon_add.svg" alt="add" />
+            <img src="/Icons/Icon_add.svg" alt="add" />
           </span>
           <span>New Post</span>
         </button>
-       
       </section>
     </>
   );

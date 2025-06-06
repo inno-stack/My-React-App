@@ -1,7 +1,6 @@
 import { useRef, useEffect } from "react";
 import React from "react";
 
-
 function NewPostModal({ onClose }) {
   const modalRef = useRef(null);
 
@@ -35,7 +34,7 @@ function NewPostModal({ onClose }) {
             <div className="overlayHeader">
               <h3>New post</h3>
               <button id="newPostcloseBtn" className="newPostcloseBtn">
-                <img src="src/assets/Icons/Icon_close.svg" alt="close" />
+                <img src="/Icons/Icon_close.svg" alt="close" />
               </button>
             </div>
             <form>

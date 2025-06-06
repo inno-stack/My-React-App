@@ -4,32 +4,32 @@ import "/src/index.css"; // If you have styles, import them
 // STEP 1: Card Data
 const cardsData = [
   {
-    image: "/src/assets/Images/Mask group-5.png",
+    image: "/Images/Mask group-5.png",
     title: "Val Thorens",
     liked: false,
   },
   {
-    image: "/src/assets/Images/Mask group-2.png",
+    image: "/Images/Mask group-2.png",
     title: "Restaurant-terrace",
     liked: false,
   },
   {
-    image: "/src/assets/Images/Mask group-3.png",
+    image: "/Images/Mask group-3.png",
     title: "An outdoor cafe",
     liked: false,
   },
   {
-    image: "/src/assets/Images/Mask group.png",
+    image: "/Images/Mask group.png",
     title: "A very long bridge over the forest...",
     liked: false,
   },
   {
-    image: "/src/assets/Images/Mask group-1.png",
+    image: "/Images/Mask group-1.png",
     title: "Tunnel with morning light",
     liked: false,
   },
   {
-    image: "/src/assets/Images/Mask group-4.png",
+    image: "/Images/Mask group-4.png",
     title: "Mountain house",
     liked: false,
   },
